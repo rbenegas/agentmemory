@@ -1,4 +1,7 @@
-<p align="center">
+### Architecture Context
+As part of my local AI security infrastructure, I utilize `agentmemory` alongside a locally hosted DeepSeek-R1-70B model (running via Ollama and PM2 on RHEL 10). This persistent memory layer integrates with my OpenCursor IDE and Model Context Protocol (MCP) integrations to maintain deep contextual awareness during automated AppSec code reviews, threat modeling, and Checkmarx SAST/SCA log analysis without losing historical data across sessions.
+
+---<p align="center">
   <img src="assets/banner.png" alt="agentmemory — Persistent memory for AI coding agents" width="720" />
 </p>
 
